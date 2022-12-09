@@ -66,6 +66,14 @@ namespace exe4_094
                 }
             }
         }
+        static void Main(string[] args)
+        {
+            Stack s = new Stack(33);
+            while (true)
+            {
+
+            }
+        }
 
     }
 }
