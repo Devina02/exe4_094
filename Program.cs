@@ -28,7 +28,7 @@ namespace exe4_094
             }
             else
             {
-                Console.WriteLine("Enter the value?");
+                Console.WriteLine("Masukan elemen");
                 val = Convert.ToInt32(Console.ReadLine());
                 top = top + 1;
                 elmnt[top] = val;
@@ -71,7 +71,13 @@ namespace exe4_094
             Stack s = new Stack(33);
             while (true)
             {
-
+                Console.WriteLine();
+                Console.WriteLine("\n***Stack Menu***\n");
+                Console.WriteLine("1. Push. ");
+                Console.WriteLine("2. Pop. ");
+                Console.WriteLine("3. Display. ");
+                Console.WriteLine("4. Exit. ");
+                Console.WriteLine("\nEnter your choice: ");
             }
         }
 
