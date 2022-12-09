@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace exe4_094
 {
-    class stack
+    class Stack
     {
         private int[] elmnt;
         private int top;
         private int max;
-
+        public Stack(int size)
+        {
+            elmnt = new int[size];
+            top = -1;
+            max = size;
+        }
     }
 }
