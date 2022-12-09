@@ -90,6 +90,9 @@ namespace exe4_094
                     case '2':
                         s.pop();
                         break;
+                    case '3':
+                        s.display();
+                        break;
                 }
             }
         }
