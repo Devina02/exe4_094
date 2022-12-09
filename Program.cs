@@ -24,6 +24,10 @@ namespace exe4_094
                 Console.WriteLine("Stack Overflow");
                 return;
             }
+            else
+            {
+                elmnt[++top] = item;
+            }
         }
     }
 }
