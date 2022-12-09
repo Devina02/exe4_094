@@ -8,12 +8,12 @@ namespace exe4_094
 {
     class Stack
     {
-        private int[] elmnt;
+        private int[] devina;
         private int top;
         private int max;
         public Stack(int size)
         {
-            elmnt = new int[size];
+            devina = new int[size];
             top = -1;
             max = size;
         }
@@ -31,7 +31,7 @@ namespace exe4_094
                 Console.WriteLine("Masukan elemen");
                 val = Convert.ToInt32(Console.ReadLine());
                 top = top + 1;
-                elmnt[top] = val;
+                devina[top] = val;
                 return true;
             }
         }
@@ -62,7 +62,7 @@ namespace exe4_094
             {
                 for (int i = 0; i <= top; i++)
                 {
-                    Console.WriteLine("Item [" + (i + 1) + "] : " + elmnt[i]);
+                    Console.WriteLine("Item [" + (i + 1) + "] : " + devina[i]);
                 }
             }
         }
