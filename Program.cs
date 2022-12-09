@@ -87,6 +87,9 @@ namespace exe4_094
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
+                    case '2':
+                        s.pop();
+                        break;
                 }
             }
         }
