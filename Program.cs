@@ -8,9 +8,9 @@ namespace exe4_094
 {
     class Stack
     {
-        private int[] devina;
+        private int[] devina = new int[33];
         private int top;
-        private int max;
+        private int max = 33;
         public Stack(int size)
         {
             devina = new int[size];
